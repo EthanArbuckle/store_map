@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F0736251C5EA9DF007CE5ED /* SVGKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6373061C45EAF70056232B /* SVGKit.framework */; };
+		5F0736261C5EA9DF007CE5ED /* SVGKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6373061C45EAF70056232B /* SVGKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5F0736291C5ED383007CE5ED /* EAProcessedListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0736281C5ED382007CE5ED /* EAProcessedListController.m */; };
+		5F3E1D1B1C643E0A008E8AFC /* EAPathfinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E1D1A1C643E0A008E8AFC /* EAPathfinder.m */; };
+		5F6372E21C44F7EB0056232B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6372E11C44F7EB0056232B /* main.m */; };
+		5F6372E51C44F7EB0056232B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6372E41C44F7EB0056232B /* AppDelegate.m */; };
+		5F6372E81C44F7EB0056232B /* EATargetFloorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6372E71C44F7EB0056232B /* EATargetFloorViewController.m */; };
+		5F6372EB1C44F7EB0056232B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6372E91C44F7EB0056232B /* Main.storyboard */; };
+		5F6372ED1C44F7EB0056232B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F6372EC1C44F7EB0056232B /* Assets.xcassets */; };
+		5F6372F01C44F7EB0056232B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6372EE1C44F7EB0056232B /* LaunchScreen.storyboard */; };
+		5F6372F91C44FE860056232B /* EATargetAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6372F81C44FE860056232B /* EATargetAPI.m */; };
+		5F6372FC1C4505FF0056232B /* EAStoreItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6372FB1C4505FF0056232B /* EAStoreItem.m */; };
+		5F6373011C450FD20056232B /* EAWalmartAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6373001C450FD20056232B /* EAWalmartAPI.m */; };
+		5F63730C1C45EBF80056232B /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F63730B1C45EBF80056232B /* CocoaLumberjack.framework */; };
+		5F63730D1C45EBF80056232B /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5F63730B1C45EBF80056232B /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5F6EB4C11C59E417002AA57A /* EATargetFloorMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6EB4C01C59E417002AA57A /* EATargetFloorMap.m */; };
+		5F6EB4C41C5EA2AA002AA57A /* EAListEntryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6EB4C31C5EA2AA002AA57A /* EAListEntryController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5F63730A1C45EBA40056232B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5F0736261C5EA9DF007CE5ED /* SVGKit.framework in Embed Frameworks */,
+				5F63730D1C45EBF80056232B /* CocoaLumberjack.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5F0736271C5ED382007CE5ED /* EAProcessedListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAProcessedListController.h; sourceTree = "<group>"; };
+		5F0736281C5ED382007CE5ED /* EAProcessedListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAProcessedListController.m; sourceTree = "<group>"; };
+		5F3E1D191C643E0A008E8AFC /* EAPathfinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAPathfinder.h; sourceTree = "<group>"; };
+		5F3E1D1A1C643E0A008E8AFC /* EAPathfinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAPathfinder.m; sourceTree = "<group>"; };
+		5F6372DD1C44F7EB0056232B /* store_map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = store_map.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6372E11C44F7EB0056232B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F6372E31C44F7EB0056232B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F6372E41C44F7EB0056232B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F6372E61C44F7EB0056232B /* EATargetFloorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EATargetFloorViewController.h; sourceTree = "<group>"; };
+		5F6372E71C44F7EB0056232B /* EATargetFloorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EATargetFloorViewController.m; sourceTree = "<group>"; };
+		5F6372EA1C44F7EB0056232B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F6372EC1C44F7EB0056232B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F6372EF1C44F7EB0056232B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F6372F11C44F7EB0056232B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6372F71C44FE860056232B /* EATargetAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATargetAPI.h; sourceTree = "<group>"; };
+		5F6372F81C44FE860056232B /* EATargetAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EATargetAPI.m; sourceTree = "<group>"; };
+		5F6372FA1C4505FF0056232B /* EAStoreItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAStoreItem.h; sourceTree = "<group>"; };
+		5F6372FB1C4505FF0056232B /* EAStoreItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAStoreItem.m; sourceTree = "<group>"; };
+		5F6372FF1C450FD20056232B /* EAWalmartAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAWalmartAPI.h; sourceTree = "<group>"; };
+		5F6373001C450FD20056232B /* EAWalmartAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAWalmartAPI.m; sourceTree = "<group>"; };
+		5F6373061C45EAF70056232B /* SVGKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVGKit.framework; path = store_map/SVGKit.framework; sourceTree = "<group>"; };
+		5F63730B1C45EBF80056232B /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = store_map/CocoaLumberjack.framework; sourceTree = "<group>"; };
+		5F6EB4BF1C59E417002AA57A /* EATargetFloorMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATargetFloorMap.h; sourceTree = "<group>"; };
+		5F6EB4C01C59E417002AA57A /* EATargetFloorMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EATargetFloorMap.m; sourceTree = "<group>"; };
+		5F6EB4C21C5EA2AA002AA57A /* EAListEntryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAListEntryController.h; sourceTree = "<group>"; };
+		5F6EB4C31C5EA2AA002AA57A /* EAListEntryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAListEntryController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F6372DA1C44F7EB0056232B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F0736251C5EA9DF007CE5ED /* SVGKit.framework in Frameworks */,
+				5F63730C1C45EBF80056232B /* CocoaLumberjack.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F6372D41C44F7EB0056232B = {
+			isa = PBXGroup;
+			children = (
+				5F63730B1C45EBF80056232B /* CocoaLumberjack.framework */,
+				5F6373061C45EAF70056232B /* SVGKit.framework */,
+				5F6372DF1C44F7EB0056232B /* store_map */,
+				5F6372DE1C44F7EB0056232B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F6372DE1C44F7EB0056232B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F6372DD1C44F7EB0056232B /* store_map.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F6372DF1C44F7EB0056232B /* store_map */ = {
+			isa = PBXGroup;
+			children = (
+				5F6372E31C44F7EB0056232B /* AppDelegate.h */,
+				5F6372E41C44F7EB0056232B /* AppDelegate.m */,
+				5F6372FA1C4505FF0056232B /* EAStoreItem.h */,
+				5F6372FB1C4505FF0056232B /* EAStoreItem.m */,
+				5F3E1D191C643E0A008E8AFC /* EAPathfinder.h */,
+				5F3E1D1A1C643E0A008E8AFC /* EAPathfinder.m */,
+				5F6372FE1C450FBA0056232B /* Walmart */,
+				5F6372FD1C450F250056232B /* Target */,
+				5F6372E91C44F7EB0056232B /* Main.storyboard */,
+				5F6372EC1C44F7EB0056232B /* Assets.xcassets */,
+				5F6372EE1C44F7EB0056232B /* LaunchScreen.storyboard */,
+				5F6372F11C44F7EB0056232B /* Info.plist */,
+				5F6372E01C44F7EB0056232B /* Supporting Files */,
+			);
+			path = store_map;
+			sourceTree = "<group>";
+		};
+		5F6372E01C44F7EB0056232B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F6372E11C44F7EB0056232B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F6372FD1C450F250056232B /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				5F6372F71C44FE860056232B /* EATargetAPI.h */,
+				5F6372F81C44FE860056232B /* EATargetAPI.m */,
+				5F6372E61C44F7EB0056232B /* EATargetFloorViewController.h */,
+				5F6372E71C44F7EB0056232B /* EATargetFloorViewController.m */,
+				5F6EB4BF1C59E417002AA57A /* EATargetFloorMap.h */,
+				5F6EB4C01C59E417002AA57A /* EATargetFloorMap.m */,
+				5F6EB4C21C5EA2AA002AA57A /* EAListEntryController.h */,
+				5F6EB4C31C5EA2AA002AA57A /* EAListEntryController.m */,
+				5F0736271C5ED382007CE5ED /* EAProcessedListController.h */,
+				5F0736281C5ED382007CE5ED /* EAProcessedListController.m */,
+			);
+			name = Target;
+			sourceTree = "<group>";
+		};
+		5F6372FE1C450FBA0056232B /* Walmart */ = {
+			isa = PBXGroup;
+			children = (
+				5F6372FF1C450FD20056232B /* EAWalmartAPI.h */,
+				5F6373001C450FD20056232B /* EAWalmartAPI.m */,
+			);
+			name = Walmart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F6372DC1C44F7EB0056232B /* store_map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6372F41C44F7EB0056232B /* Build configuration list for PBXNativeTarget "store_map" */;
+			buildPhases = (
+				5F6372D91C44F7EB0056232B /* Sources */,
+				5F6372DA1C44F7EB0056232B /* Frameworks */,
+				5F6372DB1C44F7EB0056232B /* Resources */,
+				5F63730A1C45EBA40056232B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = store_map;
+			productName = store_map;
+			productReference = 5F6372DD1C44F7EB0056232B /* store_map.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F6372D51C44F7EB0056232B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ethan Arbuckle";
+				TargetAttributes = {
+					5F6372DC1C44F7EB0056232B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BDRBB4CT97;
+					};
+				};
+			};
+			buildConfigurationList = 5F6372D81C44F7EB0056232B /* Build configuration list for PBXProject "store_map" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F6372D41C44F7EB0056232B;
+			productRefGroup = 5F6372DE1C44F7EB0056232B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F6372DC1C44F7EB0056232B /* store_map */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F6372DB1C44F7EB0056232B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6372F01C44F7EB0056232B /* LaunchScreen.storyboard in Resources */,
+				5F6372ED1C44F7EB0056232B /* Assets.xcassets in Resources */,
+				5F6372EB1C44F7EB0056232B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F6372D91C44F7EB0056232B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6372E81C44F7EB0056232B /* EATargetFloorViewController.m in Sources */,
+				5F6372E51C44F7EB0056232B /* AppDelegate.m in Sources */,
+				5F3E1D1B1C643E0A008E8AFC /* EAPathfinder.m in Sources */,
+				5F6EB4C41C5EA2AA002AA57A /* EAListEntryController.m in Sources */,
+				5F6EB4C11C59E417002AA57A /* EATargetFloorMap.m in Sources */,
+				5F6372E21C44F7EB0056232B /* main.m in Sources */,
+				5F6373011C450FD20056232B /* EAWalmartAPI.m in Sources */,
+				5F6372F91C44FE860056232B /* EATargetAPI.m in Sources */,
+				5F0736291C5ED383007CE5ED /* EAProcessedListController.m in Sources */,
+				5F6372FC1C4505FF0056232B /* EAStoreItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F6372E91C44F7EB0056232B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F6372EA1C44F7EB0056232B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F6372EE1C44F7EB0056232B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F6372EF1C44F7EB0056232B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F6372F21C44F7EB0056232B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F6372F31C44F7EB0056232B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F6372F51C44F7EB0056232B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/store_map",
+					"$(PROJECT_DIR)/store_map/simulator",
+				);
+				INFOPLIST_FILE = store_map/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ethanarbuckle.store-map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		5F6372F61C44F7EB0056232B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/store_map",
+					"$(PROJECT_DIR)/store_map/simulator",
+				);
+				INFOPLIST_FILE = store_map/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ethanarbuckle.store-map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F6372D81C44F7EB0056232B /* Build configuration list for PBXProject "store_map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6372F21C44F7EB0056232B /* Debug */,
+				5F6372F31C44F7EB0056232B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F6372F41C44F7EB0056232B /* Build configuration list for PBXNativeTarget "store_map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6372F51C44F7EB0056232B /* Debug */,
+				5F6372F61C44F7EB0056232B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F6372D51C44F7EB0056232B /* Project object */;
+}
