@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "store_map/EATargetFloorViewController.m"
-            timestampString = "476070898.821636"
+            timestampString = "476409150.264845"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "129"
-            endingLineNumber = "129"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
             landmarkName = "-addCoordinateSet:"
             landmarkType = "5">
          </BreakpointContent>

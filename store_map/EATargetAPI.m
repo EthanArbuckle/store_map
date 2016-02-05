@@ -107,11 +107,21 @@
                         continue;
                     }
                     
+                    CGPoint entranceLocation = CGPointZero;
+                    for (NSDictionary *service in parsedResults[@"data"][0][@"zones"][0][@"services"]) {
+                        if ([service[@"name"] isEqualToString:@"Entrance"]) {
+                            entranceLocation = CGPointMake([service[@"locationPixelX"] floatValue], [service[@"locationPixelY"] floatValue]);
+                        }
+                    }
+                    
                     //construct dictionary with svg url and base ratio
                     NSDictionary *mapResults = @{ @"svgUrl" : [NSString stringWithFormat:@"%@?devId=%@&apiKey=%@", zone[@"imageUrl"], kDevID, kAPIKey],
-                                                  @"baseRatio" :  zone[@"baseRatio"] };
+                                                  @"baseRatio" :  zone[@"baseRatio"],
+                                                  @"entryCoords" : [NSValue valueWithCGPoint:entranceLocation]};
 
                     [_delegate targetMapLookupFinishedWithResult:mapResults];
+                    
+                    return;
                 }
             }
 

@@ -72,6 +72,9 @@
     //update our map size ratio
     _targetFloorRatio = [store[@"baseRatio"] floatValue];
     
+    CGPoint entryPoint = [(NSValue *)[store valueForKey:@"entryCoords"] CGPointValue];
+    [self addCoordinateSet:@[@(entryPoint.x * (_targetFloorRatio * _cachedFloorImageDownsizeScale)), @(entryPoint.y * (_targetFloorRatio * _cachedFloorImageDownsizeScale))]];
+    
     //fetch the actual svg image
     [SVGKImage imageWithSource:[SVGKSourceURL sourceFromURL:[NSURL URLWithString:store[@"svgUrl"]]] onCompletion:^(SVGKImage *loadedImage, SVGKParseResult *parseResult) {
     
@@ -130,8 +133,8 @@
     
     //add set to item coords
     [_itemCoordinates addObject:coordinates];
-    
-    if ([_itemCoordinates count] == [_storeItems count]) {
+                                        //all items + entry
+    if ([_itemCoordinates count] == [_storeItems count] + 1) {
         
         [_targetFloorImageView setItemCoordinates:[EAPathfinder sortedPathFromArrayOfPoints:[_itemCoordinates copy]]];
         [_targetFloorImageView setNeedsDisplay];

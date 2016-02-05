@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import "EAStoreItem.h"
 
 #define kTargetAPIQueryURL @"https://www.tgtappdata.com/v1/products/search/inside/"

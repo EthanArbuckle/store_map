@@ -26,7 +26,7 @@
 - (void)drawRect:(CGRect)rect {
     
     [super drawRect:rect];
-    
+
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSetStrokeColorWithColor(context, [UIColor purpleColor].CGColor);
     CGContextSetLineWidth(context, 1.0);
